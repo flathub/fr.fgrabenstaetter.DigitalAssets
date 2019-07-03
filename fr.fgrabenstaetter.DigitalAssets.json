@@ -5,7 +5,7 @@
     "sdk": "org.gnome.Sdk",
     "command": "fr.fgrabenstaetter.DigitalAssets",
     "finish-args": [
-		"--socket=x11",
+        "--socket=x11",
         "--socket=wayland",
         "--share=ipc",
         "--share=network",
@@ -19,13 +19,14 @@
             "name": "digital-assets",
             "buildsystem": "meson",
             "post-install": [
-                "glib-compile-schemas /app/share/glib-2.0/schemas"
+                "glib-compile-schemas /app/share/glib-2.0/schemas/"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/fgrabenstaetter/digital-assets.git",
-                    "tag": "1.0.2"
+                    "tag": "1.1.0",
+                    "commit": "7fac6048bc7613274e97d5ee579a815da63e1110"
                 }
             ]
         }

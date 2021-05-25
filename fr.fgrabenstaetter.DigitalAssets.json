@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
-    "command": "digital-assets",
+    "command": "fr.fgrabenstaetter.DigitalAssets",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -22,8 +22,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/fgrabenstaetter/digital-assets.git",
-                    "tag": "1.1.1",
-                    "commit": "c63af7dde2d5fbaf1376406e2fa5d2a5eff02c5e"
+                    "tag": "1.1.0",
+                    "commit": "7fac6048bc7613274e97d5ee579a815da63e1110"
                 }
             ]
         }

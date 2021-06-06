@@ -1,7 +1,7 @@
 {
     "app-id": "fr.fgrabenstaetter.DigitalAssets",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "fr.fgrabenstaetter.DigitalAssets",
     "finish-args": [
@@ -9,10 +9,7 @@
         "--socket=wayland",
         "--share=ipc",
         "--share=network",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--metadata=X-DConf=migrate-path=/fr/fgrabenstaetter/digital-assets/"
     ],
     "modules": [
         {

@@ -3,7 +3,10 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
-    "command": "fr.fgrabenstaetter.DigitalAssets",
+    "command": "digital-assets",
+    "rename-icon": "digital-assets",
+    "rename-desktop-file": "digital-assets.desktop",
+    "rename-appdata-file": "digital-assets.appdata.xml",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -16,16 +19,17 @@
             "name": "digital-assets",
             "buildsystem": "meson",
             "post-install": [
-                "glib-compile-schemas /app/share/glib-2.0/schemas/"
+                "glib-compile-schemas --strict /app/share/glib-2.0/schemas/"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/fgrabenstaetter/digital-assets.git",
-                    "tag": "1.1.0",
-                    "commit": "7fac6048bc7613274e97d5ee579a815da63e1110"
+                    "tag": "1.2.0",
+                    "commit": "23da7b38c0f71aaf9502b3aba239e22c3980e459"
                 }
             ]
         }
     ]
 }
+

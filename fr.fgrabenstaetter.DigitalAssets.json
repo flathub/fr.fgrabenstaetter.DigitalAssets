@@ -25,8 +25,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/fgrabenstaetter/digital-assets.git",
-                    "tag": "2.0.0",
-                    "commit": "25848f15a400196f27a54fe932751929fb320891"
+                    "commit": "2b2b010e8f227da9e98ff63b2eb7b504b65ae0b6"
                 }
             ]
         }

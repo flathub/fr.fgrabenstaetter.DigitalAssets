@@ -1,7 +1,7 @@
 {
     "app-id": "fr.fgrabenstaetter.DigitalAssets",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "command": "digital-assets",
     "rename-icon": "digital-assets",
@@ -25,8 +25,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/fgrabenstaetter/digital-assets.git",
-                    "tag": "1.2.0",
-                    "commit": "23da7b38c0f71aaf9502b3aba239e22c3980e459"
+                    "tag": "2.0.0",
+                    "commit": "25848f15a400196f27a54fe932751929fb320891"
                 }
             ]
         }

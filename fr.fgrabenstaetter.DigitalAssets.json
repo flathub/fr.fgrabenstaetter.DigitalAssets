@@ -1,7 +1,7 @@
 {
     "app-id": "fr.fgrabenstaetter.DigitalAssets",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "41",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "digital-assets",
     "rename-icon": "digital-assets",

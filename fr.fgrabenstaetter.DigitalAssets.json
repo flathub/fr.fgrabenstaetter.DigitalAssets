@@ -12,6 +12,7 @@
         "--socket=wayland",
         "--share=ipc",
         "--share=network",
+        "--device=dri",
         "--metadata=X-DConf=migrate-path=/fr/fgrabenstaetter/digital-assets/"
     ],
     "modules": [
